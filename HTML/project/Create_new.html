@@ -13,7 +13,7 @@
         <tr>
             <td></td>
             <td width="70%">
-                <a href="">Back To Homepage</a>
+                <a href="./index.html">Back To Homepage</a>
                 <br>
                 <br>
                 <form>
@@ -21,7 +21,7 @@
                         <legend>Top Headline</legend>
                         <label>
                             Headline text
-                            <input type="text" name="headline">
+                            <input type="text" name="headline" required>
                         </label>
                     </fieldset>
                     <br>
@@ -30,11 +30,11 @@
                         <legend>Images</legend>
                         <label>
                             Image 1:
-                            <input type="file" name="image1">
+                            <input type="file" name="image1" required>
                             <br> Image 2:
-                            <input type="file" name="image2">
+                            <input type="file" name="image2" required>
                             <br> Image 3:
-                            <input type="file" name="image3">
+                            <input type="file" name="image3" required>
                         </label>
                     </fieldset>
                     <br>
@@ -42,7 +42,7 @@
                         <legend>Reward</legend>
                         <label>
                             Reward money:
-                            <input type="text" name="headline">
+                            <input type="number" name="headline" required>
                         </label>
                     </fieldset>
                     <br>
@@ -53,64 +53,79 @@
                         <label>
                             Aliases:
                             <br>
-                            <input type="text" name="aliases">
+                            <input type="text" name="aliases" required>
                         </label>
                         <br>
                         <br>
                         <label>
                             Birth:
                             <br>
-                            <input type="date" name="birth">
+                            <input type="date" name="birth" required>
                         </label>
                         <br>
                         <br>
                         <label>
                             Heir:
                             <br>
-                            <input type="text" name="heir">
+                            <input type="text" name="heir" required>
                         </label>
                         <br>
                         <br>
                         <label>
                             Eyes:
                             <br>
-                            <input type="text" name="eyes">
+                            <input type="text" name="eyes" required>
                         </label>
                         <br>
                         <label>
                              Height:
                             <br>
-                            <input type="number" name="height">
+                            <input type="number" name="height" required>
                         </label>
                         <br>
                         <label>
                             Weight:
                             <br>
-                            <input type="number" name="weight">
+                            <input type="number" name="weight" required>
                         </label>
                         <br>
                         <label>
                             Sex:
                             <br>
-                            <input type="text" name="sex">
+                            <input type="text" name="sex" required>
                         </label>
                         <br>
                         <label>
                             ID Number:
                             <br>
-                            <input type="text" name="id">
+                            <input type="text" name="id" required>
                         </label>
                         <br>
                         <label>
                             Occupation:
                             <br>
-                            <input type="text" name="occupation">
+                            <input type="text" name="occupation" required>
                         </label>
                     </fieldset>
 
                     <br>
-
-
+                    <fieldset>
+                        <legend>Remarks</legend>
+                        <label>
+                            <textarea rows="7" cols="140" name="comments" required>Remarks texts
+                            </textarea>
+                        </label>
+                     </fieldset>
+                     <br>
+                      <fieldset>
+                        <legend>Caution</legend>
+                        <label>
+                            <textarea rows="7" cols="140" name="comments" required>Caution text
+                            </textarea>
+                        </label>
+                     </fieldset>
+                     <input  type="reset" value="Reset" width="50" >
+                     <input  type="submit" value="Create poster" width="50" >
                 </form>
 
             </td>
