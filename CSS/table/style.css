@@ -1,0 +1,31 @@
+table{
+    margin:50px auto 50px auto;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+     
+}
+img {
+    height: 100px;
+}
+
+.red{
+    background-color: rgba(184, 23, 23, 1)
+}
+tr:nth-child(even) {
+    background-color:rgba(192,192,192,0.3);}
+tr:hover{
+    background-color: rgb(230, 230, 68);
+}
+
+td{
+    padding:10px 5px 10px 5px;
+    min-width: 80px;
+    text-align: center;
+}
+th{
+   padding:10px 5px;
+    
+   font-size: 20px;
+   color: white;
+}

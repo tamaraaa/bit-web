@@ -1,0 +1,25 @@
+.circle{
+    list-style: circle;
+}
+.square{
+    list-style: square;
+}
+.alphabetic{
+    list-style: upper-alpha;
+}
+.roman{
+
+   list-style: upper-roman;
+}
+.a{
+    list-style-image:url(https://www.w3schools.com/cssref/sqpurple.gif);
+    width: 200px;
+    
+}
+.b{
+    list-style-image:url(https://www.w3schools.com/cssref/sqpurple.gif);
+    list-style-position: inside;
+    width: 200px;
+    
+   
+}
