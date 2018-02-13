@@ -1,0 +1,55 @@
+div {
+    width: 200px;
+    height: 200px;
+    
+}
+.first{
+    background: yellow;
+}
+.second {
+    background: orange;
+}
+.third{
+    background: purple;
+}
+.a {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.b {
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+
+
+
+.kont{
+    position:relative;
+    width: 100%;
+}
+
+.c {
+    position: absolute;
+
+        right: 0px;
+        top: 0px;
+        z-index: 2;
+}
+.d {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    z-index: 1;
+}
+.e {
+    position: absolute;
+    right: 200px;
+    top: 200px;
+}
+.d:hover{
+    width: 700px;
+    z-index: 3;
+}
