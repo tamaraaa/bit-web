@@ -1,0 +1,42 @@
+    .container {
+        margin: 0 auto;
+        width: 70%;
+        position: relative;
+    }
+
+    img {
+        width: 160px;
+        border-radius: 50%;
+        float: left;
+    }
+
+    .header {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .left {
+        width: 45%;
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .right {
+        display: inline-block;
+        width: 45%;
+        border-left: solid black;
+        padding: 0 0 0 10px;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 0;
+    }
