@@ -22,18 +22,14 @@ nav>ul>li {
     list-style: none;
     border: 1px solid #c0b5b5;
     border-collapse: collapse;
-    
 }
 
 a {
     text-decoration-line: none;
-    
-    
 }
 
 nav {
     width: 100%;
-    
 }
 
 .active {
@@ -59,45 +55,77 @@ article>img {
 
 ul {
     padding-bottom: 8%;
-    
 }
 
 p {
     text-align: center;
 }
-.active>a{
+
+.active>a {
     color: aliceblue;
 }
-@media screen and (min-width:768px){
-    h1{
-        display: inline-block;
 
+@media screen and (min-width:768px) {
+    h1 {
+        display: inline-block;
     }
-    .container{
+    .container {
         position: relative;
     }
-nav{
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 30%
-}
-li{display: inline-block;
-    width: 31%;
-    font-size: 30px;
-    border: none;
-}
-    article>img,p{
+    nav {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%
+    }
+    li {
+        display: inline-block;
+        width: 31%;
+        font-size: 30px;
+        border: none;
+    }
+    article>img,
+    p {
         display: inline-block;
         width: 47%;
         vertical-align: middle;
-        
     }
-    ul{padding: 0;
+    ul {
+        padding: 0;
     }
-    nav>ul>li{
+    nav>ul>li {
         border: white;
         border-radius: 10%;
+    }
+}
+
+@media (min-width: 1200px) {
+    article {
+        width: 33.3%;
+        float: left;
+        border: none;
+       
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+        
+             
+        
+    }
+    article>img{
+       
+        display: block;
+        margin: 0 auto;
+        
+
+       
+    }
+    header>img{
+        padding-bottom: 10%;
+        padding-top: 2%;
+     
+       
     }
 }
