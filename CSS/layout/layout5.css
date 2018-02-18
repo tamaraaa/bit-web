@@ -1,0 +1,110 @@
+*{margin:0;
+    padding:0;
+    }
+    header {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    nav {
+        width: 960px;
+        height: 40px;
+        background: red;
+    }
+    
+    nav>ul {
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav>ul>li {
+        display: inline-block;
+        padding: 10px 15px 0 0;
+    }
+    
+    nav>ul>li>a {
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+    }
+    main{
+        margin:0 auto;
+        width: 960px;
+    }
+    .htmlcss {
+        width: 960px;
+        margin: 10px 0 10px 0;
+    }
+    
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        background: #272e4e;
+        height: 40px;
+        color: white;
+       
+        
+    }
+    .footer1{
+    width: 960px;
+    margin:0 auto;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+        line-height: 40px;
+        
+    }
+    
+    
+    
+    .first {
+        float: left;
+        width: 300px;
+        margin-right: 30px;
+    }
+    
+    .second {
+        clear: right;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .last {
+        margin-right: 0;
+    }
+    
+    .secondcontainer {
+        position: relative;
+    }
+    
+    aside {
+        margin-right: 0px;
+        margin-top: -5px;
+        width: 300px;
+        height: 220px;
+        background: gold;
+        color: black;
+        display: inline-block;
+    }
+    .margin1{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .margin{
+        margin-top:10px;
+    }
+    
+    aside>ul {
+        padding: 15px;
+    }
+    
+    aside>ul>li {
+        list-style-type: none;
+        font-size: 20px;
+        line-height: 25px;
+        border-bottom: 1px solid black;
+    }

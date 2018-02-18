@@ -1,0 +1,28 @@
+body {
+  margin: 0 30%;
+}
+
+.a {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  margin-bottom: 60px;
+}
+
+.b {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.c {
+  position: absolute;
+  bottom: 0px;
+  left: 700px;
+}
+#backToTop{
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  
+}
