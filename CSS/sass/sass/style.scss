@@ -1,0 +1,49 @@
+
+@import'reset';
+
+
+
+
+$boja1:red;
+$boja2:rgb(23, 240, 23);
+@mixin shadow($first,$color){
+    padding: $first;
+    border:$first solid $color;
+    box-shadow: $first $first ;
+   
+     
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    align-content: center;
+    h1 {
+        text-align: center;
+    }
+   img{
+       margin: 0 40%;
+       border: 5px;
+       border-color: aqua;
+       border-style: solid;
+
+     
+   }
+
+    h2 {
+        background-color: $boja2;
+        text-align: center;
+    }
+    .tabela{
+        margin: 0 auto;
+        width: 80%;
+        border: 5px solid red;
+        @include shadow(10px,black);
+
+     }
+
+     
+    
+         
+     
+}
+

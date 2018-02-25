@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,kBAAM;EACF,MAAM,EAAE,aAAa;EACrB,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,WAAW;EAC7B,KAAK,EAAE,MAAM;;AAIjB,IAAI;EAEA,UAAU,EAAE,oBAAoB;EAChC,MAAM,EAAC,IAAI;;AAIf,IAAI;EAEA,KAAK,EAAC,IAAI;EACV,MAAM,EAAE,gBAAgB",
+"sources": ["vezba2.scss"],
+"names": [],
+"file": "vezba2.css"
+}
