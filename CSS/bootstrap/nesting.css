@@ -1,0 +1,29 @@
+.container{
+    margin-top: 50px;
+}
+
+.a{
+    height: 100px;
+}
+.bg{
+    background-color: rgb(194, 181, 181);
+    height: 100px;
+}
+.b{
+    height: 45px;
+   
+}
+.bga{height: 50px;
+background-color:  rgb(194, 181, 181);
+}
+div{margin : 10px auto;
+border-radius: 3px;}
+.bla{
+    margin: 0;
+}
+.n{
+    margin: 0;
+}
+.p{
+  height: 100px;
+}
