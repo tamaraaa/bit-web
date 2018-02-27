@@ -1,7 +1,13 @@
-nav{
+.navigation {
     background: $main-color1 ;
-   
-}
-h1{
-    color: white;
+    .navbar-brand {
+    color: $text-light;
+    }
+   .navbar-toggler {
+       background: $main-color ;
+       color: $text-light;
+   }
+   .navbar-toggler-icon {
+    
+   }
 }
