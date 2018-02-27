@@ -2,12 +2,15 @@
   background: #2c3e50; }
   .navigation .navbar-brand {
     color: white; }
+  .navigation a {
+    color: white; }
   .navigation .navbar-toggler {
     background: #18bc9c;
     color: white; }
 
 header {
-  background-color: #18bc9c; }
+  background-color: #18bc9c;
+  height: 700px; }
   header h1 {
     font-size: 26px;
     color: white;
@@ -23,8 +26,69 @@ header {
     padding-top: 10%; }
 
 .container {
+  padding-top: 30px;
   text-align: center; }
+  .container h2 {
+    padding-top: 40px; }
   .container img {
-    margin-bottom: 10px; }
+    margin-bottom: 40px; }
+
+section {
+  background-color: #18bc9c;
+  text-align: left;
+  padding: 50px;
+  height: 500px;
+  margin-bottom: 30px; }
+  section h2 {
+    color: white;
+    text-align: center; }
+  section p {
+    color: white;
+    margin-bottom: 30px; }
+  section span {
+    color: white; }
+  section button {
+    border: 3px solid white;
+    background: #18bc9c;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin: 0 auto;
+    height: 40px;
+    color: white; }
+    section button p {
+      display: inline-block;
+      padding-top: 8px; }
+
+.contact h2 {
+  padding-top: 30px; }
+.contact .contact .form {
+  text-align: center; }
+.contact .center {
+  text-align: center; }
+.contact .btn {
+  background-color: #18bc9c;
+  color: white; }
+
+.footer-contact {
+  padding: 10%;
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 30px; }
+  .footer-contact .footer-about {
+    display: block;
+    text-align: center; }
+  .footer-contact .around-the-web {
+    text-align: center; }
+  .footer-contact .more-details {
+    text-align: center; }
+  .footer-contact .copyright {
+    text-align: center;
+    display: block; }
+
+@media all and (min-width: 768px) {
+  .footer-about, .around-the-web, .more-details, .copyright {
+    display: inline-block; } }
+body h2 {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

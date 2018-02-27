@@ -1,5 +1,6 @@
 header {
     background-color: $main-color;
+    height: 700px;
     h1 {
         font-size: 26px;
       color: $text-light;
@@ -8,6 +9,7 @@ header {
     p {
         color:$text-light;
         text-align: center;
+        
     }
     img {
         display:block;

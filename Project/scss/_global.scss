@@ -1,0 +1,31 @@
+section {
+    background-color: $main-color;
+    text-align: left;
+    padding: 50px;
+    height: 500px;
+    margin-bottom: 30px;
+    h2{
+        color: $text-light;
+        text-align: center;
+    }
+   
+    p{
+        color: $text-light;
+        margin-bottom: 30px;
+    }
+    span{
+        color: $text-light;
+    }
+   button{
+       border: 3px solid $text-light;
+       background: $main-color ;
+       border-radius: 3px;
+       vertical-align: middle;
+       margin: 0 auto;
+       height: 40px;
+       color: $text-light;
+       p{display: inline-block;
+        padding-top: 8px;
+    }
+   }
+}
