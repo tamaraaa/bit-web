@@ -1,0 +1,34 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url("bg.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.img{
+    background-image: url("./mario.png");
+    background-size: cover;
+    display: inline;
+    position:absolute;
+    left: 50%;
+    bottom: 18%;
+    width: 100px;
+    height: 115px;
+}
+
+.gif{
+    background-image: url("./mario_running.gif");
+    background-size: cover;
+    display: inline;
+    position:absolute;
+    left: 50%;
+   bottom: 18%;
+    width: 100px;
+    height: 115px;
+
+}
