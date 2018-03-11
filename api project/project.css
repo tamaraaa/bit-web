@@ -1,0 +1,58 @@
+body {
+  color: #32393F;
+  text-align: center; }
+
+header, footer {
+  background-color: #32393F;
+  width: 100vw;
+  padding: 20px 0;
+  color: white; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+
+h1 {
+  margin: 5vh 0; }
+
+.show {
+  margin: 20px 0; }
+  .show img {
+    margin-bottom: 10px; }
+
+.show-container {
+  cursor: pointer; }
+
+.original-img {
+  height: 500px;
+  display: block;
+  margin: 0 auto; }
+
+.text {
+  display: block;
+  text-align: center; }
+
+.search-results {
+  list-style-type: none;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  z-index: 1;
+  border: 1px solid grey;
+  padding: 0;
+  width: 174px;
+  margin-right: 14px;
+  background: white;
+  color: black; }
+
+.search-result {
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  cursor: pointer; }
+
+.search-result:hover {
+  background-color: grey; }
+
+/*# sourceMappingURL=project.css.map */
